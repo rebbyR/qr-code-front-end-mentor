@@ -18,34 +18,29 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
-  text-align: center;
   background-color: var(--white);
   width: 300px;
-  height: auto;
-  /*min-width: 250px;*/
-  padding: 50px;
-  margin-bottom: 175px;
+  padding: 1.5rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  margin: 0;
+  box-shadow: 2px 5px 5px rgba(0,0,0,0.5);
 }
 
 .text-container {  
   margin: 0;
   font-family: 'Outfit', sans-serif;
+  text-align: center;
 }
 
 h1 {
-  font-weight: 700;
   font-size: 1.5rem;
   color: var(--dark-blue);
 }
 
 p { 
-  font-weight: 400;
+  font-size: 15px;
   color: var(--gray-blue);
 }
 
